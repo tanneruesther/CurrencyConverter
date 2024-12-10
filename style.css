@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e5031; 
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; 
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 1vh;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+p{
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 0.4vh;
+    font-weight: bold;
+
+}
+
+.container {
+    background-color: #34495E; 
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 30vw;
+    box-shadow: 5px 5px 15px black; 
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form, button, select, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid #7F8C8D; 
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+    background-color: #2C3E50; 
+    color: #FFFFFF; 
+    margin-bottom: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 10rem;
+    border: 1px solid #7F8C8D; 
+    background-color: #34495E;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: #BDC3C7;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 3vh;
+    letter-spacing: 0.2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px black;
+    color: #55abe3; 
+}
+
+form button {
+    background-color: #1d2c356d; 
+    height: 3rem;
+    color: #BDC3C7; 
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #84c8e15f;
+}
+
+form button:active {
+    background-color: #1C2A33; 
+}
