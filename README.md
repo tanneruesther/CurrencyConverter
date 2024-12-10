@@ -30,7 +30,7 @@ Get your API key from the Currency Layer API.
 Add your API key in the script.js file where the apiKey variable is defined.
 
 ## Screenshots
-![Currency Coverter]()
+![Currency Coverter](assets/CurrencyConverter.jpg)
 
 ## Credits
 This project was developed by [tanneruesther](https://github.com/tanneruesther).
@@ -46,4 +46,4 @@ This project helped me strengthen my skills in API integration, handling user in
 
 ## 💬 Suggestions?
 If you have any suggestions or need clarification, feel free to open an issue in the repository or contact me directly via [LinkedIn](www.linkedin.com/in/esther-rani-tannerub63692274)
-![image](https://github.com/user-attachments/assets/95d17c4b-5ae7-469d-8b5f-07c4f78b893b)
+
